@@ -1,11 +1,11 @@
-var config;
-var game = new Phaser.Game(config);
+let config;
+let game = new Phaser.Game(config);
 
-var player;
-var stars;
-var bombs;
-var platforms;
-var cursors;
-var score = 0;
-var gameOver = false;
-var scoreText;
+let player;
+let stars;
+let bombs;
+let platforms;
+let cursors;
+let score = 0;
+let gameOver = false;
+let scoreText;
